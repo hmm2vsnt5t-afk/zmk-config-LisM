@@ -7,6 +7,8 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        automouse-layer = <2>;
+        CONFIG_PMW3610_AUTOMOUSE_TIMEOUT_MS=700
     };
 };
 
