@@ -29,3 +29,23 @@
             <&zip_scroll_scaler 1 16>;
     };
 };
+
+&central_listener {
+    status = "okay";
+    device = <&trackball_central>;
+
+    input-processors =
+        /* XY方向を反転（好みで） */
+        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+
+        /* ★ オートマウスレイヤー */
+        <&zip_layer_switch
+            ZMK_INPUT_REL_X
+            ZMK_INPUT_REL_Y
+            2      /* マウスレイヤー */
+            8      /* threshold：誤爆防止用 */
+            250    /* release timeout (ms) */
+        >;
+
+    };
+};
