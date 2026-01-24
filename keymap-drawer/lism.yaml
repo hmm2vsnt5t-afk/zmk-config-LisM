@@ -40,8 +40,51 @@ layers:
   - DEL
   - BS
   - Sft+Gui+4
-  - {t: '[', h: Mouse Layer}
-  - {t: ']', h: Number Layer}
+  - {t: '[', h: Number layer}
+  - {t: ']', h: Mouse Layer}
+  - {t: INT HENKAN, h: Number Layer}
+  Number layer:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - ':'
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - '-'
+  - {t: F11, h: LSHIFT}
+  - F12
+  - F13
+  - F14
+  - F15
+  - '7'
+  - '8'
+  - '9'
+  - '*'
+  - {t: /, h: RIGHT SHIFT}
+  - {t: INT MUHENKAN, h: LEFT CONTROL}
+  - LEFT WIN
+  - {t: LEFT ALT, h: TAB}
+  - Sft+Gui+4
+  - SPACE
+  - ENTER
+  - DEL
+  - BS
+  - Sft+Gui+4
+  - {t: (, h: Mouse Layer, type: held}
+  - {t: ), h: Number Layer}
   - {t: INT HENKAN, h: Mark Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
@@ -83,8 +126,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ↓, type: held}
-  - {t: ▽, type: trans}
+  - ↓
+  - {type: held}
   - Gui+W
   Number Layer:
   - {t: ▽, type: trans}
@@ -127,8 +170,8 @@ layers:
   - LANG1
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
-  - {t: Ctl+TAB, type: held}
-  - F12
+  - Ctl+TAB
+  - {t: F12, type: held}
   Mark Layer:
   - Sft+Gui+4
   - F4
@@ -169,7 +212,7 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - ''
   - {t: F12, type: held}
   Device Layer:
