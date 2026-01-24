@@ -1,3 +1,6 @@
+/* ★ これを一番上に置く */
+#include <input/processors.dtsi>
+
 &spi0 {
     status = "okay";
 
@@ -10,7 +13,7 @@
     };
 };
 
-/* split 経由 listener */
+/* ペリフェラル（split経由）のリスナーを有効化 */
 &peripheral_listener {
     status = "okay";
 };
@@ -25,9 +28,8 @@
         <&zip_xy_to_mouse_mapper>;
 };
 
-#include <input/processors.dtsi>
-/ {
-    /* ★ オートマウスレイヤー（スクロールなし） */
+/* ★ オートマウスレイヤー（スクロールなし） */
+ / {
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball_central>;
