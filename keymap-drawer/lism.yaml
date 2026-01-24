@@ -41,8 +41,8 @@ layers:
   - BS
   - Sft+Gui+4
   - {t: '[', h: Number layer}
-  - {t: ']', h: Default Layer}
-  - {t: INT HENKAN, h: Default Layer}
+  - {t: ']', h: Sign layer}
+  - {t: INT HENKAN, h: Mouse layer}
   Number layer:
   - F1
   - F2
@@ -64,7 +64,7 @@ layers:
   - '6'
   - +
   - '-'
-  - {t: F11, h: LSHIFT}
+  - F11
   - F12
   - F13
   - F14
@@ -73,20 +73,50 @@ layers:
   - '8'
   - '9'
   - '*'
-  - {t: /, h: RIGHT SHIFT}
-  - {t: INT MUHENKAN, h: LEFT CONTROL}
-  - LEFT WIN
-  - {t: LEFT ALT, h: TAB}
-  - Sft+Gui+4
-  - SPACE
-  - ENTER
-  - DEL
-  - BS
-  - Sft+Gui+4
-  - {t: (, h: Number layer, type: held}
-  - {t: ), h: Default Layer}
-  - {t: INT HENKAN, h: Default Layer}
+  - /
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
   Sign layer:
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - '&'
+  - '*'
+  - (
+  - )
+  - BSLH
+  - APOS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LBKT
+  - RBKT
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ','
+  - .
+  - {t: /, h: RIGHT SHIFT}
   - ''
   - ''
   - ''
@@ -94,6 +124,19 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  Mouse layer:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
   - UP ARROW
   - ''
   - PAGE UP
@@ -116,16 +159,16 @@ layers:
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - {t: HOME, h: RIGHT SHIFT}
-  - {t: INT MUHENKAN, h: LEFT CONTROL}
-  - LEFT WIN
-  - {t: LEFT ALT, h: TAB}
-  - Sft+Gui+4
-  - SPACE
-  - ENTER
-  - DEL
-  - BS
-  - Sft+Gui+4
-  - {t: (, h: Number layer}
-  - {t: ), h: Default Layer}
-  - {t: END, h: Default Layer}
+  - ''
+  - LEFT CONTROL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&pass1'
+  - '&pass2'
+  - ''
+  - HOME
+  - END
+  - {type: held}
