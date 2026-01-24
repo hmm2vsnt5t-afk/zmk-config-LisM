@@ -87,36 +87,36 @@ layers:
   - {t: ), h: Default Layer}
   - {t: INT HENKAN, h: Default Layer}
   Sign layer:
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - '&'
-  - '*'
-  - (
-  - )
-  - BSLH
-  - APOS
-  - F8
-  - F9
-  - F10
-  - '4'
-  - '5'
-  - '6'
-  - LBKT
-  - RBKT
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - '7'
-  - '8'
-  - ','
-  - .
-  - {t: /, h: RIGHT SHIFT}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP ARROW
+  - ''
+  - PAGE UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ←
+  - DOWN ARROW
+  - RIGHT ARROW
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: HOME, h: RIGHT SHIFT}
   - {t: INT MUHENKAN, h: LEFT CONTROL}
   - LEFT WIN
   - {t: LEFT ALT, h: TAB}
@@ -128,47 +128,4 @@ layers:
   - Sft+Gui+4
   - {t: (, h: Number layer}
   - {t: ), h: Default Layer}
-  - {t: INT HENKAN, h: Default Layer}
-  Device Layer:
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - Boot
-  - BT CLR ALL
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&studio_unlock'
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
+  - {t: END, h: Default Layer}
