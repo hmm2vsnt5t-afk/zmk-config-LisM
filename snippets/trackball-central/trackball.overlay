@@ -10,26 +10,22 @@
     };
 };
 
-// ペリフェラル（split経由）のリスナーを有効化
+/* ペリフェラル（split経由）のリスナーを有効化 */
 &peripheral_listener {
     status = "okay";
 };
 
-// セントラルのリスナーを有効化し、deviceを紐付け
+/* 右手トラボ：マウス移動のみ */
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = 
-        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 
-    scroller {
-        layers = <3>;
-        input-processors = 
-            <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_scaler 1 16>;
-    };
+    input-processors =
+        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+        <&zip_xy_to_mouse_mapper>;
 };
 
+/* ↓ これは不要なので削除 ↓
 #include <input/processors.dtsi>
 / {
     trackball_listener: trackball_listener {
@@ -39,3 +35,4 @@
         input-processors = <&zip_temp_layer 3 10000>;
     };
 };
+*/
