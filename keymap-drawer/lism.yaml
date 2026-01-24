@@ -41,38 +41,38 @@ layers:
   - BS
   - Sft+Gui+4
   - {t: '[', h: Number layer}
-  - {t: ']', h: Mouse Layer}
-  - {t: INT HENKAN, h: Number Layer}
+  - {t: ']', h: Default Layer}
+  - {t: INT HENKAN, h: Default Layer}
   Number layer:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - '1'
-  - '2'
-  - '3'
-  - '='
-  - ':'
-  - F6
-  - F7
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - '&'
+  - '*'
+  - (
+  - )
+  - BSLH
+  - APOS
   - F8
   - F9
   - F10
   - '4'
   - '5'
   - '6'
-  - +
-  - '-'
-  - {t: F11, h: LSHIFT}
-  - F12
-  - F13
-  - F14
-  - F15
+  - LBKT
+  - RBKT
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - '7'
   - '8'
-  - '9'
-  - '*'
+  - ','
+  - .
   - {t: /, h: RIGHT SHIFT}
   - {t: INT MUHENKAN, h: LEFT CONTROL}
   - LEFT WIN
@@ -83,138 +83,9 @@ layers:
   - DEL
   - BS
   - Sft+Gui+4
-  - {t: (, h: Mouse Layer, type: held}
-  - {t: ), h: Number Layer}
-  - {t: INT HENKAN, h: Mark Layer}
-  Mouse Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↑
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↓
-  - ←
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↓
-  - {type: held}
-  - Gui+W
-  Number Layer:
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - RSHIFT
-  - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
-  - /
-  - '1'
-  - '2'
-  - '3'
-  - +
-  - '&mkp MB2'
-  - ''
-  - ↓
-  - ''
-  - RALT
-  - {t: ▽, type: trans}
-  - .
-  - '0'
-  - {t: ▽, type: trans}
-  - LANG2
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANG1
-  - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - {t: F12, type: held}
-  Mark Layer:
-  - Sft+Gui+4
-  - F4
-  - (
-  - )
-  - ''
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '&emoji'
-  - F5
-  - '['
-  - ']'
-  - ''
-  - '`'
-  - _
-  - ''''
-  - '"'
-  - \
-  - KP NUMLOCK
-  - F11
-  - '{'
-  - '}'
-  - ''
-  - '|'
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ENTER
-  - {t: ▽, type: trans}
-  - {type: held}
-  - ''
-  - {t: F12, type: held}
+  - {t: (, h: Number layer, type: held}
+  - {t: ), h: Default Layer}
+  - {t: INT HENKAN, h: Default Layer}
   Device Layer:
   - ''
   - ''
