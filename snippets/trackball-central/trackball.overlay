@@ -10,12 +10,12 @@
     };
 };
 
-/* ペリフェラル（split経由）のリスナーを有効化 */
+/* split 経由 listener */
 &peripheral_listener {
     status = "okay";
 };
 
-/* 右手トラボ：マウス移動のみ */
+/* 右手トラボ：マウス移動 + オートマウスレイヤー */
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
@@ -25,14 +25,14 @@
         <&zip_xy_to_mouse_mapper>;
 };
 
-/* オートマウスレイヤー */
 #include <input/processors.dtsi>
 / {
+    /* ★ オートマウスレイヤー（スクロールなし） */
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball_central>;
 
-        input-processors = <&zip_temp_layer 3 10000>;
+        /* 動いたら Layer 3、止まったら解除 */
+        input-processors = <&zip_temp_layer 3 250>;
     };
 };
-
