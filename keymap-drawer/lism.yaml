@@ -136,9 +136,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&mkp LCLK'
   - UP ARROW
-  - ''
+  - '&mkp RCLK'
   - PAGE UP
   - ''
   - ''
@@ -156,9 +156,9 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
   - ''
   - LEFT CONTROL
   - ''
