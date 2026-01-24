@@ -23,19 +23,9 @@
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 
     scroller {
-        layers = <2>;
+        layers = <3>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 16>;
-    };
-};
-
-#include <input/processors.dtsi>
-/ {
-    trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-
-        input-processors = <&zip_temp_layer 3 10000>;
     };
 };
