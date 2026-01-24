@@ -25,7 +25,7 @@
         <&zip_xy_to_mouse_mapper>;
 };
 
-/* ↓ これは不要なので削除 ↓
+/* オートマウスレイヤー */
 #include <input/processors.dtsi>
 / {
     trackball_listener: trackball_listener {
@@ -35,4 +35,4 @@
         input-processors = <&zip_temp_layer 3 10000>;
     };
 };
-*/
+
