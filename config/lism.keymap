@@ -61,6 +61,18 @@
         };
 
         layer_1 {
+            display-name = "Number layer";
+            bindings = <
+&kp F1                         &kp F2        &kp F3            &kp F4          &kp F5                           &kp N1         &kp N2          &kp N3                  &kp EQUAL                &kp COLON
+&kp F6                         &kp F7        &kp F8            &kp F9          &kp F10                          &kp N4         &kp N5          &kp N6                  &kp PLUS                 &kp MINUS
+&mt LSHIFT F11                 &kp F12       &kp F13           &kp F14         &kp F15                          &kp N7         &kp N8          &kp N9                  &kp ASTERISK             &mt RIGHT_SHIFT SLASH
+&mt LEFT_CONTROL INT_MUHENKAN  &kp LEFT_WIN  &mt TAB LEFT_ALT  &kp LS(LG(N4))  &kp SPACE  &kp ENTER    &kp DEL  &kp BACKSPACE  &kp LS(LG(N4))  &lt 2 LEFT_PARENTHESIS  &lt 3 RIGHT_PARENTHESIS  &lt 4 INT_HENKAN
+            >;
+
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+        };
+
+        layer_1 {
             display-name = "Mouse Layer";
             bindings = <
 &trans    &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
