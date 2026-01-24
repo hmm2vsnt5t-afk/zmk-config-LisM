@@ -90,55 +90,24 @@
             display-name = "Sign layer";
             bindings = <
 &kp TILDE                      &kp EXCLAMATION  &kp AT_SIGN       &kp HASH        &kp DOLLAR                          &kp PERCENT    &kp AMPERSAND   &kp ASTERISK            &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS
-&kp BSLH                       &kp APOS         &kp F8            &kp F9          &kp F10                             &kp N4         &kp N5          &kp N6                  &kp LBKT                 &kp RBKT
-&bt BT_SEL 0                   &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_SEL 4                        &kp N7         &kp N8          &kp COMMA               &kp DOT                  &mt RIGHT_SHIFT SLASH
+&kp BSLH                       &kp APOS         &none             &none           &none                               &none          &none           &none                   &kp LBKT                 &kp RBKT
+&bt BT_SEL 0                   &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_SEL 4                        &none          &none           &kp COMMA               &kp DOT                  &mt RIGHT_SHIFT SLASH
 &mt LEFT_CONTROL INT_MUHENKAN  &kp LEFT_WIN     &mt TAB LEFT_ALT  &kp LS(LG(N4))  &kp SPACE     &kp ENTER    &kp DEL  &kp BACKSPACE  &kp LS(LG(N4))  &lt 1 LEFT_PARENTHESIS  &lt 0 RIGHT_PARENTHESIS  &lt 0 INT_HENKAN
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
-        layer_4 {
-            display-name = "Device Layer";
+        layer_3 {
+            display-name = "Sign layer";
             bindings = <
-&none        &none           &none  &none  &bt BT_CLR                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none        &none           &none  &none  &none                                &none         &none         &none         &none         &none
-&sys_reset   &none           &none  &none  &none                                &none         &none         &none         &none         &sys_reset
-&bootloader  &bt BT_CLR_ALL  &none  &none  &none       &none    &studio_unlock  &none         &none         &none         &none         &bootloader
+&none                          &none         &none             &none           &none                            &none          &none           &kp UP_ARROW            &none                    &kp PAGE_UP
+&none                          &none         &none             &none           &none                            &none          &kp LEFT        &kp DOWN_ARROW          &kp RIGHT_ARROW          &kp PAGE_DOWN
+&none                          &none         &none             &none           &none                            &none          &mkp LCLK       &mkp MCLK               &mkp RCLK                &mt RIGHT_SHIFT HOME
+&mt LEFT_CONTROL INT_MUHENKAN  &kp LEFT_WIN  &mt TAB LEFT_ALT  &kp LS(LG(N4))  &kp SPACE  &kp ENTER    &kp DEL  &kp BACKSPACE  &kp LS(LG(N4))  &lt 1 LEFT_PARENTHESIS  &lt 0 RIGHT_PARENTHESIS  &lt 0 END
             >;
-        };
 
-        layer_5 {
-            status = "reserved";
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_6 {
-            status = "reserved";
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_7 {
-            status = "reserved";
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
     };
 };
