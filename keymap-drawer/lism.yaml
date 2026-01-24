@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - {t: INT MUHENKAN, h: LEFT CONTROL}
   - LEFT WIN
   - {t: LEFT ALT, h: TAB}
@@ -40,9 +40,9 @@ layers:
   - DEL
   - BS
   - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
+  - {t: '[', h: Mouse Layer}
+  - {t: ']', h: Number Layer}
+  - {t: INT HENKAN, h: Mark Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
+  - {t: ↓, type: held}
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
@@ -127,7 +127,7 @@ layers:
   - LANG1
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
-  - Ctl+TAB
+  - {t: Ctl+TAB, type: held}
   - F12
   Mark Layer:
   - Sft+Gui+4
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - F12
+  - {t: F12, type: held}
   Device Layer:
   - ''
   - ''
@@ -214,4 +214,4 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Boot, type: held}
+  - Boot
