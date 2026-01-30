@@ -52,10 +52,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q                          &kp W         &kp E             &kp R           &kp T                            &kp Y          &kp U           &kp I      &kp O    &kp P
-&kp A                          &kp S         &kp D             &kp F           &kp G                            &kp H          &kp J           &kp K      &kp L    &kp SEMI
-&mt LSHIFT Z                   &kp X         &kp C             &kp V           &kp B                            &kp N          &kp M           &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&mt LEFT_CONTROL INT_MUHENKAN  &kp LEFT_WIN  &mt TAB LEFT_ALT  &kp LS(LG(N4))  &kp SPACE  &kp ENTER    &kp DEL  &kp BACKSPACE  &kp LS(LG(N4))  &to 1      &to 2    &lt 3 INT_HENKAN
+&kp Q                          &kp W         &kp E             &kp R           &kp T                                  &kp Y       &kp U           &kp I      &kp O    &kp P
+&kp A                          &kp S         &kp D             &kp F           &kp G                                  &kp H       &kp J           &kp K      &kp L    &kp SEMI
+&mt LSHIFT Z                   &kp X         &kp C             &kp V           &kp B                                  &kp N       &kp M           &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&mt LEFT_CONTROL INT_MUHENKAN  &kp LEFT_WIN  &mt TAB LEFT_ALT  &kp LS(LG(N4))  &kp SPACE  &kp ENTER    &kp BACKSPACE  &kp DELETE  &kp LS(LG(N4))  &to 1      &to 2    &lt 3 INT_HENKAN
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -64,10 +64,10 @@
         layer_1 {
             display-name = "Number layer";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp COLON
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp N4  &kp N5  &kp N6  &kp PLUS      &kp MINUS
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &kp SLASH
-&none    &none    &none    &none    &none    &none    &none  &kp N0  &none   &to 0   &to 2         &none
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                            &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp COLON
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                           &kp N4  &kp N5  &kp N6  &kp PLUS      &kp MINUS
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                           &kp N7  &kp N8  &kp N9  &kp ASTERISK  &kp SLASH
+&none    &none    &none    &none    &kp SPACE  &kp ENTER    &kp BSPC  &kp N0  &none   &to 0   &to 2         &none
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -76,10 +76,10 @@
         layer_2 {
             display-name = "Sign layer";
             bindings = <
-&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR                    &kp PERCENT  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp BSLH        &kp APOS         &none         &none         &none                         &kp HOME     &kp UP         &kp END       &kp LBKT              &kp RBKT
-&bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &kp LEFT     &kp DOWN       &kp RIGHT     &kp DOT               &mt RIGHT_SHIFT SLASH
-&bt BT_CLR_ALL  &none            &none         &none         &none         &none    &none  &none        &none          &to 1         &to 0                 &none
+&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR                           &kp PERCENT  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp BSLH        &kp APOS         &none         &none         &none                                &kp HOME     &kp UP         &kp END       &kp LBKT              &kp RBKT
+&bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                         &kp LEFT     &kp DOWN       &kp RIGHT     &kp DOT               &mt RIGHT_SHIFT SLASH
+&bt BT_CLR_ALL  &none            &none         &none         &kp SPACE     &kp ENTER    &kp BSPC  &none        &none          &to 1         &to 0                 &none
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
