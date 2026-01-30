@@ -74,9 +74,9 @@ layers:
   - '9'
   - '*'
   - /
-  - ''
-  - ''
-  - ''
+  - {t: INT MUHENKAN, h: LEFT CONTROL}
+  - LGUI
+  - {t: TAB, h: LEFT ALT}
   - ''
   - SPACE
   - ENTER
@@ -117,9 +117,9 @@ layers:
   - →
   - .
   - {t: /, h: RIGHT SHIFT}
-  - BT CLR ALL
-  - ''
-  - ''
+  - {t: INT MUHENKAN, h: LEFT CONTROL}
+  - LGUI
+  - {t: TAB, h: LALT}
   - ''
   - SPACE
   - ENTER
@@ -161,11 +161,11 @@ layers:
   - ''
   - ''
   - LEFT CONTROL
-  - ''
-  - ''
+  - LGUI
+  - LALT
   - ''
   - SPACE
-  - ''
+  - ENTER
   - '&pass1'
   - '&pass2'
   - ''
