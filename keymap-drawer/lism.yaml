@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - SEMI
+  - '-'
   - {t: Z, h: LSHIFT}
   - X
   - C
