@@ -34,12 +34,12 @@ layers:
   - {t: INT MUHENKAN, h: LEFT CONTROL}
   - LEFT WIN
   - {t: LEFT ALT, h: TAB}
-  - Sft+Gui+4
+  - ''
   - SPACE
   - ENTER
   - BS
   - DEL
-  - Sft+Gui+4
+  - ''
   - {t: Number layer, h: toggle}
   - {t: Sign layer, h: toggle}
   - {t: INT HENKAN, h: Mouse layer}
