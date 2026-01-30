@@ -67,7 +67,7 @@
 &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp COLON
 &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp N4  &kp N5  &kp N6  &kp PLUS      &kp MINUS
 &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &kp SLASH
-&none    &none    &none    &none    &none    &none    &none  &none   &none   &to 0   &to 2         &none
+&none    &none    &none    &none    &none    &none    &none  &kp N0  &none   &to 0   &to 2         &none
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
