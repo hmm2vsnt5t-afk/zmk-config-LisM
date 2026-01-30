@@ -81,7 +81,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '0'
   - ''
   - {t: Default Layer, h: toggle}
   - {t: Sign layer, h: toggle}
