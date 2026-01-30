@@ -40,8 +40,8 @@ layers:
   - DEL
   - BS
   - Sft+Gui+4
-  - {t: '[', h: Number layer}
-  - {t: ']', h: Sign layer}
+  - {t: Number layer, h: sticky}
+  - {t: Sign layer, h: sticky}
   - {t: INT HENKAN, h: Mouse layer}
   Number layer:
   - F1
@@ -83,8 +83,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
+  - {t: Default Layer, h: sticky, type: held}
+  - {t: Sign layer, h: sticky}
   - ''
   Sign layer:
   - '~'
@@ -102,9 +102,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - HOME
   - ↑
-  - ''
+  - END
   - LBKT
   - RBKT
   - {t: BT, h: '0'}
@@ -126,8 +126,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - {type: held}
+  - {t: Number layer, h: sticky}
+  - {t: Default Layer, h: sticky, type: held}
   - ''
   Mouse layer:
   - ''
@@ -136,9 +136,9 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp LCLK'
-  - UP ARROW
-  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
   - PAGE UP
   - ''
   - ''
@@ -146,9 +146,9 @@ layers:
   - ''
   - ''
   - ''
-  - ←
-  - DOWN ARROW
-  - RIGHT ARROW
+  - '&mkp LCLK'
+  - ''
+  - '&mkp RCLK'
   - PAGE DOWN
   - LSHFT
   - ''
