@@ -37,8 +37,8 @@ layers:
   - Sft+Gui+4
   - SPACE
   - ENTER
-  - DEL
   - BS
+  - DEL
   - Sft+Gui+4
   - {t: Number layer, h: toggle}
   - {t: Sign layer, h: toggle}
@@ -78,9 +78,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - SPACE
+  - ENTER
+  - BSPC
   - '0'
   - ''
   - {t: Default Layer, h: toggle}
@@ -121,9 +121,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - SPACE
+  - ENTER
+  - BSPC
   - ''
   - ''
   - {t: Number layer, h: toggle}
