@@ -15,15 +15,6 @@
     device = <&trackball_peripheral>;
     input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;  
-};
-
-#include <input/processors.dtsi>
-
-&trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball_peripheral>;
-
-    scroller {
-        input-processors = <&zip_xy_to_scroll_mapper>;
-    };
+        <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_scaler 1 16>;
 };
