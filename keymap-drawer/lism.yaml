@@ -40,8 +40,8 @@ layers:
   - DEL
   - BS
   - Sft+Gui+4
-  - {t: Number layer, h: sticky}
-  - {t: Sign layer, h: sticky}
+  - {t: Number layer, h: toggle}
+  - {t: Sign layer, h: toggle}
   - {t: INT HENKAN, h: Mouse layer}
   Number layer:
   - F1
@@ -83,8 +83,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Default Layer, h: sticky, type: held}
-  - {t: Sign layer, h: sticky}
+  - {t: Default Layer, h: toggle}
+  - {t: Sign layer, h: toggle}
   - ''
   Sign layer:
   - '~'
@@ -126,8 +126,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Number layer, h: sticky}
-  - {t: Default Layer, h: sticky, type: held}
+  - {t: Number layer, h: toggle}
+  - {t: Default Layer, h: toggle}
   - ''
   Mouse layer:
   - ''
