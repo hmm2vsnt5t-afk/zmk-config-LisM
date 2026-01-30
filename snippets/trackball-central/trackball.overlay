@@ -10,6 +10,16 @@
     };
 };
 
+#include <input/processors.dtsi>
+/ {
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball_central>;
+
+        input-processors = <&zip_temp_layer 3 1000>;
+    };
+};
+
 // ペリフェラル（split経由）のリスナーを有効化
 &peripheral_listener {
     status = "okay";
@@ -30,12 +40,3 @@
     };
 };
 
-#include <input/processors.dtsi>
-/ {
-    trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball_central>;
-
-        input-processors = <&zip_temp_layer 3 1000>;
-    };
-};
