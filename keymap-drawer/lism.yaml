@@ -117,7 +117,7 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - ''
+  - BT CLR ALL
   - ''
   - ''
   - ''
