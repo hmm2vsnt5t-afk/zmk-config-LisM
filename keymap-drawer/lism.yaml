@@ -23,9 +23,9 @@ layers:
   - '-'
   - {t: Z, h: LSHIFT}
   - X
-  - C
-  - V
-  - B
+  - {t: C, h: Number layer}
+  - {t: V, h: Sign layer}
+  - {t: B, h: Mouse layer}
   - N
   - M
   - ','
@@ -38,7 +38,7 @@ layers:
   - SPACE
   - ENTER
   - BS
-  - DEL
+  - {t: Mouse layer, h: toggle}
   - ''
   - {t: Number layer, h: toggle}
   - {t: Sign layer, h: toggle}
@@ -66,9 +66,9 @@ layers:
   - '-'
   - F11
   - F12
-  - F13
+  - {t: F13, type: held}
   - F14
-  - F15
+  - {t: Default Layer, h: toggle}
   - '7'
   - '8'
   - '9'
@@ -110,8 +110,8 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: BT, h: '3', type: held}
+  - {t: Default Layer, h: toggle}
   - ←
   - ↓
   - →
@@ -130,6 +130,7 @@ layers:
   - {t: Default Layer, h: toggle}
   - ''
   Mouse layer:
+  - ESC
   - ''
   - ''
   - ''
@@ -138,9 +139,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - PAGE UP
-  - ''
+  - HOME
+  - TAB
   - ''
   - ''
   - ''
@@ -149,16 +149,16 @@ layers:
   - '&mkp LCLK'
   - ''
   - '&mkp RCLK'
-  - PAGE DOWN
+  - END
   - LSHFT
   - ''
   - ''
   - ''
+  - {t: Default Layer, h: toggle, type: held}
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - ↑
   - ''
   - LEFT CONTROL
   - LGUI
@@ -169,6 +169,9 @@ layers:
   - '&pass1'
   - '&pass2'
   - ''
-  - HOME
-  - END
-  - {type: held}
+  - ←
+  - ↓
+  - →
+combos:
+- p: [36, 30]
+  k: DEL
