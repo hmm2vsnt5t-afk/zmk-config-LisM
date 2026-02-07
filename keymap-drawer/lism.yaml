@@ -33,12 +33,12 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - {t: INT MUHENKAN, h: LEFT CONTROL}
   - LEFT WIN
-  - {t: LEFT ALT, h: TAB}
+  - {t: TAB, h: LEFT ALT}
   - ''
   - SPACE
   - ENTER
   - BS
-  - {t: Mouse layer, h: toggle}
+  - DEL
   - ''
   - {t: Number layer, h: toggle}
   - {t: Sign layer, h: toggle}
@@ -102,9 +102,9 @@ layers:
   - ''
   - ''
   - ''
-  - HOME
-  - ↑
-  - END
+  - ''
+  - ''
+  - ''
   - LBKT
   - RBKT
   - {t: BT, h: '0'}
@@ -112,11 +112,11 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3', type: held}
   - {t: Default Layer, h: toggle}
-  - ←
-  - ↓
-  - →
-  - .
-  - {t: /, h: RIGHT SHIFT}
+  - ''
+  - ''
+  - ''
+  - ''
+  - RIGHT SHIFT
   - {t: INT MUHENKAN, h: LEFT CONTROL}
   - LGUI
   - {t: TAB, h: LALT}
@@ -139,7 +139,7 @@ layers:
   - ''
   - ''
   - ''
-  - HOME
+  - '&pass1'
   - TAB
   - ''
   - ''
@@ -149,7 +149,7 @@ layers:
   - '&mkp LCLK'
   - ''
   - '&mkp RCLK'
-  - END
+  - '&pass2'
   - LSHFT
   - ''
   - ''
@@ -157,17 +157,17 @@ layers:
   - {t: Default Layer, h: toggle, type: held}
   - ''
   - ''
-  - ''
+  - HOME
   - ↑
-  - ''
+  - END
   - LEFT CONTROL
   - LGUI
   - LALT
   - ''
   - SPACE
   - ENTER
-  - '&pass1'
-  - '&pass2'
+  - BS
+  - DEL
   - ''
   - ←
   - ↓
